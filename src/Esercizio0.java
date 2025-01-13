@@ -5,7 +5,7 @@ public class Esercizio0 {
 
         for (int i = 0; i < numeri.length - 1; i++){
             for (int j = 0; j < numeri.length - i - 1; j++){
-                if (numeri[j] > numeri[j + i]){
+                if (numeri[j] > numeri[j + 1]){
                     // scambio elementi
                     int temp = numeri[j];
                     numeri[j] = numeri[j + 1];
